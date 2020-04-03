@@ -1,5 +1,5 @@
 module FragProcessing
 
-greet() = print("Hello World!")
-
+include("gp_fm_reg.jl")
+include("processing.jl")
 end # module
